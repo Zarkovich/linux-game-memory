@@ -78,3 +78,18 @@ main.game-screen {
 .reset:active {
   scale: 0.9;
 }
+
+@media only screen and (max-width: 900px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+  }
+  main.game-screen {
+    width: 320px;
+    height: 320px;
+  }
+
+  .reset {
+    margin-bottom: 20px;
+  }
+}
